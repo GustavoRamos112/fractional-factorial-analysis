@@ -46,7 +46,7 @@ La función devolverá 4 objetos:
 ### Gráfica
 
 ```
-grafica_modelo(modelo, nombre, fontsize=10, inicio=0, final=0, largo=18, ancho=6, _dpi=100, mostrar=False, color='blue')
+grafica_modelo(modelo, nombre, fontsize=10, inicio=0, final=0, largo=18, ancho=6, _dpi=100, mostrar=False, color='blue', interacciones=[)
 ```
 
 - modelo = Modelo ya ajustado (idealmente el que regresa la función anterior)
@@ -58,6 +58,9 @@ grafica_modelo(modelo, nombre, fontsize=10, inicio=0, final=0, largo=18, ancho=6
 - _dpi = Calidad de la imagen para cuando se guarde (int)
 - mostrar = Indica si se quiere mostrar o no la gráfica luego de guardarse (usando matplotlib)
 - color = Indica el color de las líneas de la gráfica (str color html)
+- interacciones = Por si se quieren graficar ciertas interacciones, se dan en forma de lista (list)
+
+Hay que tener en cuenta que las interacciones comienzan en 0, asi pues, Intercept es 0, A es 1 y asi sucesivamente (apoyarse de la tabla del modelo devuelta por la funcion anterior)
 
 ## Ejecutar main.py
 
