@@ -72,5 +72,3 @@ Si no usas mi perfil de PowerShell:
 ```
 python main.py
 ```
-
-Si necesitas más ayuda o tienes alguna pregunta adicional, ¡házmelo saber!
