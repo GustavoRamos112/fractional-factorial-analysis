@@ -33,4 +33,5 @@ grafica_modelo(modelo=modelo_ajustado,
                final=5, 
                largo=8,
                mostrar=True,
-               color='#913C1E')
+               color='#913C1E',
+               interacciones=[2,6])
