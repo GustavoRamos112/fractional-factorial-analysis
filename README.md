@@ -27,9 +27,9 @@ discriminador = Minimum number that the sum of squares must have to be considere
 
 tolerancia = It is not necessary to move this variable, it may disappear in future versions
 
-maximo = Maximum number for interactions (2; x1:x2, 3; x1:x2:x3, ..., n; x1:x2:...:xn-1:xn) **More information at the end
+maximo = Maximum number for interactions (2; x1:x2, 3; x1:x2:x3, ..., n; x1:x2:...:xn-1:xn) **More information at the end**
 
-factor_names = Names of the factors that will be used in the model **More information at the end
+factor_names = Names of the factors that will be used in the model **More information at the end**
 
 
 The "maximo" variable, I hypothesize that it has to be of the form k-1, where k is the number of individual factors (A,B, C, ..., X, Y, Z, not A:B, BSD = B:SD, etc).
